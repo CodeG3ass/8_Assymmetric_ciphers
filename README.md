@@ -69,15 +69,14 @@
 
 3. Реализуйте на сервере проверку входящих сертификатов. На сервере должен храниться список разрешенных ключей. Когда клиент посылает на сервер свой публичный ключ, сервер ищет его среди разрешенных и, если такого не находит, разрывает соединение. Проверьте правильность работы не нескольких разных клиентах.
 
-![image](https://user-images.githubusercontent.com/92590831/146693050-3be70c19-7a66-4697-a91a-329c2f9b78e2.png)
-
+![image](https://user-images.githubusercontent.com/92590831/146784237-203dae44-3b5a-4255-963b-2f287da420f3.png)
 
 ![image](https://user-images.githubusercontent.com/92590831/146693058-d4a8cef3-c986-460c-a1e5-0ae3613245a0.png)
 
 
 ![image](https://user-images.githubusercontent.com/92590831/146694095-58d7e96e-a4f6-4e5c-be62-a0f161ed9d12.png)
 
-![image](https://user-images.githubusercontent.com/92590831/146694099-14a94db4-b3dc-47c0-bec9-d2bb1f417acc.png)
+![image](https://user-images.githubusercontent.com/92590831/146784106-a869fbe8-48ce-4cd9-9232-263d713b7146.png)
 
 ![image](https://user-images.githubusercontent.com/92590831/146694108-663ac70d-bb1c-4ebc-8160-eca19b4e9425.png)
 
