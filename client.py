@@ -1,21 +1,14 @@
 import socket
 from protocol import Diffie_Hellman_Protocol
-
 HOST = '127.0.0.1'
 PORT = 8082
-
 sock = socket.socket()
 sock.connect((HOST, PORT))
 print(f"Подсоединились к порту: {PORT}")
-#g-client_public_key
-#p-server_public_key
-
 crypt_client = Diffie_Hellman_Protocol()
 crypt_client.bunch_of_public_keys()
 keys = str(crypt_client.client_public_key)+' '+str(crypt_client.server_public_key)
 sock.send(keys.encode())
-
-
 msg = sock.recv(1024).decode()
 if msg == "Доступ разрешен":
     print(msg+"\nTo exit, send \"exit\"")
